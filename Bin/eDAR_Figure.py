@@ -15,7 +15,7 @@ from scipy.integrate import solve_ivp
 import pandas as pd
 from matplotlib.pyplot import figure
 import copy
-from Metamodel_Functions import *
+#from Metamodel_Functions import *
 import sys
 #++++++++++++++++++++++++++++++++++++++++++++ 
 
@@ -36,7 +36,7 @@ Temperateness=edar**exponent/(edar**exponent+K_edar)
 #PLOTS
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #Path to save figures
-Output_Path='/home/sergio/work/Github/LysogenyModel/Results/Figures/'
+Output_Path='../Results/Figures/'
 #Extensions
 Extensions=['.pdf','.eps','.png','.svg']
 
