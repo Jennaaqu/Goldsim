@@ -29,8 +29,8 @@ edar=np.arange(Min_edar,Max_edar,Resolution)
 
 print(edar)
 #Hill function of temperateness as a function of eDAR
-K_edar=0.05*Max_edar;exponent=1
-Temperateness=edar**exponent/(edar**exponent+K_edar)
+K_edar=0.5*Max_edar;exponent=6
+Temperateness_Hill=(edar**exponent)/(edar**exponent+K_edar**exponent)
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 #PLOTS
@@ -49,16 +49,16 @@ figure(figsize=(Width, Height), dpi=300)
 
 #Colors
 cmap='BrBG';cmap_pieces= matplotlib.cm.get_cmap(cmap)
-color_plot=cmap_pieces(0.1)
+color_hill=cmap_pieces(0.1)
 
 #Plot Figure
-plt.plot(edar,Temperateness,color=color_plot,linewidth=2)
+plt.plot(edar,Temperateness_Hill,color=color_hill,linewidth=2)
 
-print(Temperateness)
+print(Temperateness_Hill)
 #Axes, title, and ticks
 plt.ylabel('Temperateness', fontsize=size_axis)
 plt.xlabel('e-DAR (J/g)', fontsize=size_axis)
-plt.ylim([0,1])
+plt.ylim([0,1.1])
 yticks_labels=[0, 0.5, 1]
 plt.yticks(yticks_labels, fontsize=size_ticks)
 
@@ -70,4 +70,7 @@ sns.despine(top=True, right=True, left=False, bottom=False)
 
 Name_Fig='Figure_2'
 [plt.savefig(Output_Path+Name_Fig+ext,dpi=300) for ext in Extensions]
+plt.show()
+
+plt.plot(edar,Temperateness_sig,color=color_sig,linewidth=2)
 plt.show()
