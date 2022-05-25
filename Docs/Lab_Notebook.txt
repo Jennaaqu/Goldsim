@@ -1,0 +1,7 @@
+Lab Notebook
+
+25/05 Model of Lysogeny
+1. The model for lysogeny is the same as the lotka-volterra when probability of lysogeny P(L)=0.
+2. If we go to the equilibrium (of Lotka-Volterra), we observe that the lysogeny model is also very unstable even when
+the probability of lysogeny is P(L)=0.001. That's interesting
+
