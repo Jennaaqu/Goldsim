@@ -1,0 +1,34 @@
+GoldSim 14.0.0344
+Simulation Filename:	Lysogeny_Model_V5
+Simulation Start Time:	6/29/2022 12:12:21 PM
+Simulation Run Time:	0.0 s
+Model Author Name:	Jenna Aquino
+Analysis Description:	(not specified)
+
+*** Simulation Time Settings ***
+Time Basis:  Elapsed Time
+Time Unit: hr
+Duration: 340 hr
+Basic Timestep: 1 hr
+Reporting Periods: none
+Scheduled Updates: 341
+Number of Plot Points: 341
+Final Value Capture Times:
+  At the end of the simulation
+
+*** Simulation Monte-Carlo Settings ***
+Simulation Type: Probabilistic (run 1 realization)
+Latin Hypercube Sampling: enabled (using random points in strata)
+Sampling Sequences: repeated; beginning seed 1
+
+WARNINGS AND ERRORS:
+
+Realization 1
+
+0 hr:
+\rHDOC and rHO2 over time: The result element contains one or more invalid or incomplete result items.
+
+
+0 hr:
+\R_of_HeDAR: The result element contains one or more invalid or incomplete result items.
+
