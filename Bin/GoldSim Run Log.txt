@@ -1,18 +1,18 @@
 GoldSim 14.0.0344
-Simulation Filename:	Lysogeny_Model_V5
-Simulation Start Time:	6/29/2022 12:12:21 PM
+Simulation Filename:	Bacteria_Respiration
+Simulation Start Time:	8/17/2022 9:49:07 AM
 Simulation Run Time:	0.0 s
-Model Author Name:	Jenna Aquino
+Model Author Name:	Rohwer Lab
 Analysis Description:	(not specified)
 
 *** Simulation Time Settings ***
 Time Basis:  Elapsed Time
 Time Unit: hr
-Duration: 340 hr
+Duration: 200 hr
 Basic Timestep: 1 hr
 Reporting Periods: none
-Scheduled Updates: 341
-Number of Plot Points: 341
+Scheduled Updates: 201
+Number of Plot Points: 201
 Final Value Capture Times:
   At the end of the simulation
 
@@ -26,9 +26,5 @@ WARNINGS AND ERRORS:
 Realization 1
 
 0 hr:
-\rHDOC and rHO2 over time: The result element contains one or more invalid or incomplete result items.
-
-
-0 hr:
-\R_of_HeDAR: The result element contains one or more invalid or incomplete result items.
+\Phage_Bacterial_Dynamics: The result element contains one or more invalid or incomplete result items.
 
