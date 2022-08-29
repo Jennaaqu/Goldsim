@@ -12,20 +12,20 @@
 
 \subsection{Full coinfection model}
 \begin{eqnarray*}
-   \frac{dB}{dt}&=&r\big(1- \frac{N}{K}\big)B - dBP + sL\\
-   \frac{dP}{dt}&=&c\mu_p(B,L)I_p - dBP -dI_nP - mP - \chi dPL \\
-   \frac{dI_n}{dt}&=&dBP -dI_nP - \mu_{ld}(S,L)I_n \\
-   \frac{dI_p}{dt}&=&\mu_{ld}(S,L)I_n - \mu_p(B,L)I_p + \mu_i L \\
-   \frac{dL}{dt}&=&r\big(1- \frac{N}{K}\big)L + dI_nP - \mu_i L - sL \\
+   \frac{dB}{dt}&=&\underbrace{r\big(1- \frac{N}{K}\big)B}_{\text{growth}} - \underbrace{dBP}_{\text{infection}} + \underbrace{sL}_{\text{cure}}\\
+   \frac{dP}{dt}&=&\underbrace{c\mu_p(B,L)I_p}_{\text{burst function}} - \underbrace{dBP}_{\text{Infection}} - \underbrace{dI_nP}_{\text{coinfection}} - \underbrace{mP}_{\text{viral decay}} - \underbrace{\chi dPL}_{\text{lys. immunity}} \\
+   \frac{dI_n}{dt}&=&\underbrace{dBP}_{\text{infection}} - \underbrace{dI_nP}_{\text{coinfection}} - \underbrace{\mu_{ld}(B,L)I_n}_{\text{Infected to $\Phi$ prod.}} \\
+   \frac{dI_p}{dt}&=&\underbrace{\mu_{ld}(B,L)I_n}_{\text{Infected to $\Phi$ prod.}} - \underbrace{\mu_p(B,L)I_p}_{\text{lysed cells}} + \underbrace{\mu_i L}_{\text{induction}} \\
+   \frac{dL}{dt}&=&\underbrace{r\big(1- \frac{N}{K}\big)L}_{\text{growth}} + \underbrace{dI_nP}_{\text{coinfection}} - \underbrace{\mu_i L}_{\text{induction}} - \underbrace{sL}_{\text{cure}} \\
 \end{eqnarray*}
 
 \subsection{Basic coinfection model}
 \begin{eqnarray*}
-   \frac{dB}{dt}&=&r\big(1- \frac{N}{K}\big)B - dBP \\
-   \frac{dP}{dt}&=&c\mu_p(B,L)I_p - dBP -dI_nP - mP \\
-   \frac{dI_n}{dt}&=&dBP -dI_nP - \mu_{ld}(S,L)I_n \\
-   \frac{dI_p}{dt}&=&\mu_{ld}(S,L)I_n - \mu_p(B,L)I_p + \mu_i L \\
-   \frac{dL}{dt}&=&r\big(1- \frac{N}{K}\big)L + dI_nP - \mu_i L \\
+   \frac{dB}{dt}&=&\underbrace{r\big(1- \frac{N}{K}\big)B}_{\text{growth}} - \underbrace{dBP}_{\text{infection}} \\
+   \frac{dP}{dt}&=&\underbrace{c\mu_p(B,L)I_p}_{\text{burst function}} - \underbrace{dBP}_{\text{Infection}} - \underbrace{dI_nP}_{\text{coinfection}} - \underbrace{mP}_{\text{viral decay}} \\
+   \frac{dI_n}{dt}&=&\underbrace{dBP}_{\text{infection}} - \underbrace{dI_nP}_{\text{coinfection}} - \underbrace{\mu_{ld}(B,L)I_n}_{\text{Infected to $\Phi$ prod.}} \\
+   \frac{dI_p}{dt}&=&\underbrace{\mu_{ld}(B,L)I_n}_{\text{Infected to $\Phi$ prod.}} - \underbrace{\mu_p(B,L)I_p}_{\text{lysed cells}} + \underbrace{\mu_i L}_{\text{induction}} \\
+   \frac{dL}{dt}&=&\underbrace{r\big(1- \frac{N}{K}\big)L}_{\text{growth}} + \underbrace{dI_nP}_{\text{coinfection}} - \underbrace{\mu_i L}_{\text{induction}} \\
 \end{eqnarray*}
 
 \subsection{Metabolic model}
