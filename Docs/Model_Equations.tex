@@ -1,0 +1,39 @@
+\documentclass[10pt,a4paper,twoside,onecolumn, english]{report}
+\usepackage{babel}
+\usepackage{amsmath}
+
+
+%\input{preamble.tex}
+\begin{document}
+\newcommand{\derivative}[1]{\frac{d #1}{dt}}
+
+
+\section{Metabolic and coinfection models}
+
+\subsection{Full coinfection model}
+\begin{eqnarray*}
+   \frac{dB}{dt}&=&r\big(1- \frac{N}{K}\big)B - dBP + sL\\
+   \frac{dP}{dt}&=&c\mu_p(B,L)I_p - dBP -dI_nP - mP - \chi dPL \\
+   \frac{dI_n}{dt}&=&dBP -dI_nP - \mu_{ld}(S,L)I_n \\
+   \frac{dI_p}{dt}&=&\mu_{ld}(S,L)I_n - \mu_p(B,L)I_p + \mu_i L \\
+   \frac{dL}{dt}&=&r\big(1- \frac{N}{K}\big)L + dI_nP - \mu_i L - sL \\
+\end{eqnarray*}
+
+\subsection{Basic coinfection model}
+\begin{eqnarray*}
+   \frac{dB}{dt}&=&r\big(1- \frac{N}{K}\big)B - dBP \\
+   \frac{dP}{dt}&=&c\mu_p(B,L)I_p - dBP -dI_nP - mP \\
+   \frac{dI_n}{dt}&=&dBP -dI_nP - \mu_{ld}(S,L)I_n \\
+   \frac{dI_p}{dt}&=&\mu_{ld}(S,L)I_n - \mu_p(B,L)I_p + \mu_i L \\
+   \frac{dL}{dt}&=&r\big(1- \frac{N}{K}\big)L + dI_nP - \mu_i L \\
+\end{eqnarray*}
+
+\subsection{Metabolic model}
+\begin{eqnarray*}
+   \frac{dB}{dt}&=&r_{max}H_{O_2}H_{DOC}H_{eDAR}B - dBP \\
+   \frac{dP}{dt}&=&c\mu_p \big[1 - \mathcal{P}(L)\big]I - dBP - mP + c\mu_i L \\
+   \frac{dI_n}{dt}&=&dBP - \big[1 - \mathcal{P}(L) \big] I - \mathcal{P}(L)I \\
+   \frac{dL}{dt}&=&rH_{O_2}H_{DOC}H_{eDAR}L + dI_nP - \mu_i L \\
+\end{eqnarray*}
+
+\end{document}
