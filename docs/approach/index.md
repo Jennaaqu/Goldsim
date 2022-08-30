@@ -14,7 +14,7 @@ $$
    \frac{dP}{dt}&=&c\mu_p \big[1 - \mathcal{P}(L)\big]I - dBP - mP + c\mu_i L \\
    \frac{dI_n}{dt}&=&dBP - \big[1 - \mathcal{P}(L) \big] I - \mathcal{P}(L)I \\
    \frac{dL}{dt}&=&rH_{O_2}H_{DOC}H_{eDAR}L + dI_nP - \mu_i L \\
-\end{eqnarray*}
+\end{align*}
 $$
 
 ## 1.2. The coinfection model:
