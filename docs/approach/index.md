@@ -4,9 +4,9 @@ title: Approach
 nav_order: 4
 ---
 
-## 1. The models
+# 1. The models
 
-#1.1. The metabolic model
+## 1.1. The metabolic model:
 
 $$
 \begin{align*}
@@ -17,7 +17,7 @@ $$
 \end{eqnarray*}
 $$
 
-# 1.2. The coinfection model
+## 1.2. The coinfection model:
 
 $$
 \begin{align*} 
