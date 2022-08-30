@@ -23,7 +23,7 @@ $$
 | H | Hill functions |8.2x10 7 (Wild type), 1x10 8 (mutant)  | Concentrations of bacteria at the end of the experiments without CX  |
 | d | Infection rate | 0 |  |
 | $$\mathcal{P}(L)$$ | Probability of lysogeny | 0 |  |
-| $$\mu_i$$ | Induction rate |spoT-: 8.481e-12, WT + CX: 5.793e-09, spoT- + CX: 1.814e-09, WT: 3.993e-11 | Experiment results  |
+| $$\mu_i$$ | Induction rate |  |   |
 | $$\delta$$ | Probability of lysogen infection | 0 |  |
 | c | Burst size | 125 |Da. Paepe et al, 2006  |
 | m | Decay rate | 0.012h<sup>-1</sup>| Da Paepe et al, 2006  |
@@ -45,12 +45,11 @@ The processes considered in the model are controlled by the parameters shown in 
 
 | Parameter | Description | Value| Source|
 | ----------- | ----------- | ----------- | ----------- |
-| r | Maximum Growth Rate |0.471 (wild type), 0.382 (spot- mutant)  | Experiment data |
-| K | Carrying capacity |8.2x10 7 (Wild type), 1x10 8 (mutant)  | Concentrations of bacteria at the end of the experiments without CX  |
-| $$\mu_i$$ | Induction rate |spoT-: 8.481e-12, WT + CX: 5.793e-09, spoT- + CX: 1.814e-09, WT: 3.993e-11 | Experiment results  |
-| $$\delta$$ | Probability of lysogen infection | 0 |  |
+| r | Maximum Growth Rate |   |  |
+| K | Carrying capacity |  |  |
+| $$\mu_i$$ | Induction rate |  |   |
 | d | Infection rate | 0 |  |
 | c | Burst size | 125 |Da. Paepe et al, 2006  |
 | m | Decay rate | 0.012h<sup>-1</sup>| Da Paepe et al, 2006  |
 
-Our first step will be to try to fit the experimental data to this model.
+
