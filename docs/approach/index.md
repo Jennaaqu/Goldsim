@@ -6,8 +6,18 @@ nav_order: 4
 
 ## 1. The models
 
-1.1. The metaboli model
-We build a dynamic mechanistic model that includes the main biological mechanisms in the system under study:
+#1.1. The metabolic model
+
+$$
+\begin{align*}
+   \frac{dB}{dt}&=&r_{max}H_{O_2}H_{DOC}H_{eDAR}B - dBP \\
+   \frac{dP}{dt}&=&c\mu_p \big[1 - \mathcal{P}(L)\big]I - dBP - mP + c\mu_i L \\
+   \frac{dI_n}{dt}&=&dBP - \big[1 - \mathcal{P}(L) \big] I - \mathcal{P}(L)I \\
+   \frac{dL}{dt}&=&rH_{O_2}H_{DOC}H_{eDAR}L + dI_nP - \mu_i L \\
+\end{eqnarray*}
+$$
+
+# 1.2. The coinfection model
 
 $$
 \begin{align*} 
