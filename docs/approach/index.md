@@ -58,9 +58,9 @@ The processes considered in the model are controlled by the parameters shown in 
 | ----------- | ----------- | ----------- | ----------- |
 | r | Maximum Growth Rate |   |  |
 | K | Carrying capacity |  |  |
-| c | Burst size | 125 |Da. Paepe et al, 2006  |
-| $$\mu_p$$ | Lysis rate |  |   |
 | d | Infection rate | 0 |  |
+| $$\mu_p$$ | Lysis rate |  |   |
+| c | Burst size | 125 |Da. Paepe et al, 2006  |
 | m | Decay rate | 0.012h<sup>-1</sup>| Da Paepe et al, 2006  |
 | $$\mu_{ld}$$ | Induction rate |  |   |
 | $$\mu_i$$ | Induction rate |  |   |
