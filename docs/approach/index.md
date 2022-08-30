@@ -30,11 +30,13 @@ $$
 | r | Maximum Growth Rate |0.471 (wild type), 0.382 (spot- mutant)  | Experiment data |
 | H | Hill functions |8.2x10 7 (Wild type), 1x10 8 (mutant)  | Concentrations of bacteria at the end of the experiments without CX  |
 | d | Infection rate | 0 |  |
+| $$\mu_p$$ | Lysis rate |  |   |
 | c | Burst size | 125 |Da. Paepe et al, 2006  |
 | $$\mathcal{P}(L)$$ | Probability of lysogeny | 0 |  |
-| $$\mu_i$$ | Induction rate |  |   |
-| $$\delta$$ | Probability of lysogen infection | 0 |  |
 | m | Decay rate | 0.012h<sup>-1</sup>| Da Paepe et al, 2006  |
+| $$\mu_i$$ | Induction rate |  |   |
+
+
 
 ## 1.2. The coinfection model:
 
@@ -46,6 +48,7 @@ $$
    \frac{dI_n}{dt}&=&\underbrace{dBP}_{\text{infection}} - \underbrace{dI_nP}_{\text{coinfection}} - \underbrace{\mu_{ld}(B,L)I_n}_{\text{Infected to $\Phi$ prod.}} \\
    \frac{dI_p}{dt}&=&\underbrace{\mu_{ld}(B,L)I_n}_{\text{Infected to $\Phi$ prod.}} - \underbrace{\mu_p(B,L)I_p}_{\text{lysed cells}} + \underbrace{\mu_i L}_{\text{induction}} \\
    \frac{dL}{dt}&=&\underbrace{r\big(1- \frac{N}{K}\big)L}_{\text{growth}} + \underbrace{dI_nP}_{\text{coinfection}} - \underbrace{\mu_i L}_{\text{induction}} \\
+\end{align*}
 $$
 
 
