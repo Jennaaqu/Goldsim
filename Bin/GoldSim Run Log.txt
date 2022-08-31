@@ -1,18 +1,18 @@
 GoldSim 14.0.0344
-Simulation Filename:	Bacteria_Respiration
-Simulation Start Time:	8/17/2022 9:49:07 AM
-Simulation Run Time:	0.0 s
-Model Author Name:	Rohwer Lab
+Simulation Filename:	Metabolic_Model_no_respiration
+Simulation Start Time:	8/31/2022 10:30:55 AM
+Simulation Run Time:	0.1 s
+Model Author Name:	Jenna Aquino
 Analysis Description:	(not specified)
 
 *** Simulation Time Settings ***
 Time Basis:  Elapsed Time
 Time Unit: hr
-Duration: 200 hr
+Duration: 340 hr
 Basic Timestep: 1 hr
 Reporting Periods: none
-Scheduled Updates: 201
-Number of Plot Points: 201
+Scheduled Updates: 341
+Number of Plot Points: 341
 Final Value Capture Times:
   At the end of the simulation
 
@@ -26,5 +26,5 @@ WARNINGS AND ERRORS:
 Realization 1
 
 0 hr:
-\Phage_Bacterial_Dynamics: The result element contains one or more invalid or incomplete result items.
+\DOC and O2 over time: The result element contains one or more invalid or incomplete result items.
 
