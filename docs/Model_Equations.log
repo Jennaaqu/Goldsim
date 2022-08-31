@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2022.6.13)  29 AUG 2022 14:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2022.6.13)  30 AUG 2022 09:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -128,7 +128,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Here is how much of TeX's memory you used:
  1349 strings out of 494805
  16229 string characters out of 6178000
- 86820 words of memory out of 5000000
+ 89820 words of memory out of 5000000
  4728 multiletter control sequences out of 15000+600000
  5304 words of font info for 20 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
@@ -141,7 +141,7 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb>
-Output written on Model_Equations.pdf (2 pages, 79279 bytes).
+Output written on Model_Equations.pdf (2 pages, 80842 bytes).
 PDF statistics:
  43 PDF objects out of 1000 (max. 8388607)
  30 compressed objects within 1 object stream
