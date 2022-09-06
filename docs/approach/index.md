@@ -65,4 +65,5 @@ The processes considered in the model are controlled by the parameters shown in 
 | $$\mu_{ld}$$ | Induction rate |  |   |
 | $$\mu_i$$ | Induction rate |  |   |
 
+note: coinfection model may need to be at a different concentration (10^6)
 
