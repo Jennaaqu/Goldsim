@@ -53,10 +53,10 @@ $$
 
 $$
 \begin{equation*}
-\mu_{ld}=
+\mu_{ld}=\fraction{\log 2}{r\big(1- \frac{N}{K}\big)B}}
 
 \end{equation*}
-
+$$
 
 
 The processes considered in the model are controlled by the parameters shown in this table:
