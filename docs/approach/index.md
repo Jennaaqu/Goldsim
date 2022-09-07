@@ -51,6 +51,13 @@ $$
 \end{align*}
 $$
 
+$$
+\begin{equation*}
+\mu_{ld}=
+
+\end{equation*}
+
+
 
 The processes considered in the model are controlled by the parameters shown in this table:
 
