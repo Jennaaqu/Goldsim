@@ -53,10 +53,17 @@ $$
 
 $$
 \begin{equation*}
-\mu_{ld}=\frac{\log 2}{r\big(1- \frac{N}{K}\big)B}}
+\mu_{ld}=\frac{1}{0.2 \Delta t_d}
+\end{equation*}
+$$
+
+$$
+\begin{equation*}
+\mu_{ld}=\frac{1}{0.2 \Delta t_d}
+\qquad
+\mu_{ld}=\frac{1}{0.2 \Delta t_d}
 \qquad
 \mu_{ld}=\frac{\log 2}{r\big(1- \frac{N}{K}\big)B}}
-
 \end{equation*}
 $$
 
