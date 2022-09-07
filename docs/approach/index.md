@@ -51,20 +51,7 @@ $$
 \end{align*}
 $$
 
-$$
-\begin{equation*}
-\mu_{ld}=\frac{1}{0.2 \Delta t_d}
-\end{equation*}
-$$
-
-$$
-\begin{equation*}
-\mu_{ld}=\frac{1}{0.2 \Delta t_d} \qquad
-\mu_{p}=\frac{1}{0.8 \Delta t_d}
-\end{equation*}
-$$
-
-
+with:
 $$
 \begin{equation*}
 \mu_{ld}=\frac{1}{0.2 \Delta t_d} \qquad
