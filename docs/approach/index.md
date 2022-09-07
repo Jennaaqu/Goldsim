@@ -59,11 +59,9 @@ $$
 
 $$
 \begin{equation*}
-\mu_{ld}=\frac{1}{0.2 \Delta t_d}
-\qquad
-\mu_{p}=\frac{1}{0.8 \Delta t_d}
-\qquad
-\Delta t_{d}=\frac{\log 2}{r\big(1- \frac{N}{K}\big)B}}
+\mu_{ld}=\frac{1}{0.2 \Delta t_d} \qquad
+\mu_{p}=\frac{1}{0.8 \Delta t_d} \qquad
+\Delta t_{d}=\frac{\log 2}{r\big(1- \frac{N}{K}\big)B} 
 \end{equation*}
 $$
 
