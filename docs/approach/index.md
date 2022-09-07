@@ -53,7 +53,9 @@ $$
 
 $$
 \begin{equation*}
-\mu_{ld}=\fraction{\log 2}{r\big(1- \frac{N}{K}\big)B}}
+\mu_{ld}=\frac{\log 2}{r\big(1- \frac{N}{K}\big)B}}
+\qquad
+\mu_{ld}=\frac{\log 2}{r\big(1- \frac{N}{K}\big)B}}
 
 \end{equation*}
 $$
