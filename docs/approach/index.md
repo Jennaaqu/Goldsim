@@ -66,10 +66,10 @@ The processes considered in the model are controlled by the parameters shown in 
 
 | Parameter | Description | Value| Source|
 | ----------- | ----------- | ----------- | ----------- |
-| r | Maximum Growth Rate |   |  |
-| K | Carrying capacity |  |  |
-| d | Infection rate | 0 |  |
-| $$\mu_p$$ | Lysis rate |  |   |
+| r | Maximum Growth Rate |0.0357|Silveira et. al, 2021|
+| K | Carrying capacity |1e9|  |
+| d | Infection rate |3e-8 |  |
+| $$\mu_p$$ | Lysis rate |2e-5 hr^-1 |   |
 | c | Burst size | 125 |Da. Paepe et al, 2006  |
 | m | Decay rate | 0.012h<sup>-1</sup>| Da Paepe et al, 2006  |
 | $$\mu_{ld}$$ | Induction rate |  |   |
