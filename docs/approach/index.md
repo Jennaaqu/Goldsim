@@ -66,13 +66,13 @@ The processes considered in the model are controlled by the parameters shown in 
 
 | Parameter | Description | Value| Source| Phage Species|Host|
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| r | Maximum Growth Rate |0.17| (Silveira et. al, 2021)|  |
-| K | Carrying capacity |1e9|Toni student  | | |
-| d | Infection rate |1.06e-8 | (Luque and Silveira, 2020)  | | |
+| r | Maximum Growth Rate |0.17 hr^-1| (Silveira et. al, 2021)|  |
+| K | Carrying capacity |1e9 items/ml|Toni student  | | |
+| d | Infection rate |1.06e-8 ml/hr| (Luque and Silveira, 2020)  | | |
 | c | Burst size | 11 | (M.Middelboe et al.,2001) | Myoviridae | Vibrio sp. |
-| m | Decay rate | 0.528| (C.A. Suttle,1994)   |Myoviridae |Vibrio sp. |
-| $$\mu_{ld}$$ | Lysogenic decision rate window |0.5354  | calculated   | | |
-| $$\mu_{p}$$ | Time for phage to lyse |0.1338  | calculated   | | |
-| $$\mu_i$$ | Induction rate |0.02  | Toni's student   | | |
+| m | Decay rate | 0.528 hr^-1| (C.A. Suttle,1994)   |Myoviridae |Vibrio sp. |
+| $$\mu_{ld}$$ | Lysogenic decision rate window |0.5354 hr^-1 | calculated   | | |
+| $$\mu_{p}$$ | Time for phage to lyse |0.1338 hr^-1| calculated   | | |
+| $$\mu_i$$ | Induction rate |0.02 hr^-1| Toni's student   | | |
 
 
