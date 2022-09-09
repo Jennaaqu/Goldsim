@@ -67,7 +67,7 @@ The processes considered in the model are controlled by the parameters shown in 
 | Parameter | Description | Value| Source| Phage Species|Host|
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | r | Maximum Growth Rate |0.17 hr^-1| (Silveira et. al, 2021)|  |
-| K | Carrying capacity |1e9 items/ml|Toni student  | | |
+| K | Carrying capacity |1e9 items/ml|Toni's student  | | |
 | d | Infection rate |1.06e-8 ml/hr| (Luque and Silveira, 2020)  | | |
 | c | Burst size | 11 | (M.Middelboe et al.,2001) | Myoviridae | Vibrio sp. |
 | m | Decay rate | 0.528 hr^-1| (C.A. Suttle,1994)   |Myoviridae |Vibrio sp. |
