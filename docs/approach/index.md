@@ -27,13 +27,13 @@ $$
 
 | Parameter | Description | Value| Source|
 | ----------- | ----------- | ----------- | ----------- |
-| r | Maximum Growth Rate |0.471 (wild type), 0.382 (spot- mutant)  | Experiment data |
-| H | Hill functions |8.2x10 7 (Wild type), 1x10 8 (mutant)  | Concentrations of bacteria at the end of the experiments without CX  |
+| r | Maximum Growth Rate | |  |
+| H | Hill functions | |   |
 | d | Infection rate | 0 |  |
 | $$\mu_p$$ | Lysis rate |  |   |
-| c | Burst size | 125 |Da. Paepe et al, 2006  |
-| $$\mathcal{P}(L)$$ | Probability of lysogeny | 0 |  |
-| m | Decay rate | 0.012h<sup>-1</sup>| Da Paepe et al, 2006  |
+| c | Burst size | |  |
+| $$\mathcal{P}(L)$$ | Probability of lysogeny | |  |
+| m | Decay rate | |   |
 | $$\mu_i$$ | Induction rate |  |   |
 
 
