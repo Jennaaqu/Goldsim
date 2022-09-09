@@ -69,11 +69,10 @@ The processes considered in the model are controlled by the parameters shown in 
 | r | Maximum Growth Rate |0.17| (Silveira et. al, 2021)|  |
 | K | Carrying capacity |1e9|Toni student  | | |
 | d | Infection rate |1.06e-8 | (Luque and Silveira, 2020)  | | |
-| $$\mu_p$$ | Lysis rate |0.1338 | calculated   | | |
 | c | Burst size | 11 | (M.Middelboe et al.,2001) | Myoviridae | Vibrio sp. |
 | m | Decay rate | 0.528| (C.A. Suttle,1994)   |Myoviridae |Vibrio sp. |
 | $$\mu_{ld}$$ | Lysogenic decision rate window |0.5354  | calculated   | | |
-| $$\mu_{p}$$ | Time it takes for phage to lyse |0.1338  | calculated   | | |
+| $$\mu_{p}$$ | Time for phage to lyse |0.1338  | calculated   | | |
 | $$\mu_i$$ | Induction rate |0.02  | Toni's student   | | |
 
 
