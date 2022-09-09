@@ -27,14 +27,14 @@ $$
 
 | Parameter | Description | Value| Source|
 | ----------- | ----------- | ----------- | ----------- |
-| r | Maximum Growth Rate | |  |
+| r | Maximum Growth Rate |0.17 1/hr | (Silveira et. al, 2021)  |
 | H | Hill functions | |   |
-| d | Infection rate | 0 |  |
-| $$\mu_p$$ | Lysis rate |  |   |
-| c | Burst size | |  |
-| $$\mathcal{P}(L)$$ | Probability of lysogeny | |  |
-| m | Decay rate | |   |
-| $$\mu_i$$ | Induction rate |  |   |
+| d | Infection rate | |  |
+| $$\mu_p$$ | Time for phage to lyse | 1/hr|unit conversion factor   |
+| c | Burst size | 5 |  |
+| $$\mathcal{P}(L)$$ | Probability of lysogeny |0.6 | calculated  |
+| m | Decay rate |0.08 1/hr |   |
+| $$\mu_i$$ | Induction rate | 0.02 1/hr | Toni's student   |
 
 
 
