@@ -45,7 +45,7 @@ B^{*}=\frac{m/d \big( r+ \mu_{ld} \big) \big(\mu_i -r \big) }{\mu_{ld}(c -1)(\mu
 P^{*}&=&r/d \\
 I_n^{*}&=& \frac{r}{r + \mu_{ld}}B \\
 I_p^{*}&=&\frac{rB}{\mu_p(r + \mu_{ld}} \bigg[ \mu_{ld} + \frac{\mu_i r}{\mu_i -r} \\
-L^{*}&=&r/d \\
+L^{*}&=&\frac{r^2}{(r + \mu_{ld})(\mu_i -r)}B \\
 \end{align*}
 $$
 
