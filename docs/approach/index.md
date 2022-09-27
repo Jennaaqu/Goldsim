@@ -41,7 +41,7 @@ This concentrations were obtained by:
 2. Assuming on a first approximation exponential growth (i.e., there is no carrying capacity)
 $$
 \begin{align*}
-B^{*}=\frac{m/d \big( r+ \mu_{ld} \big) \big(\mu_i -r \big) }{\mu_{ld}(c -1)(\mu_i - r) - 2r(\mu_i -r) + c \mu_i} \\
+B^{*}&=&\frac{m/d \big( r+ \mu_{ld} \big) \big(\mu_i -r \big) }{\mu_{ld}(c -1)(\mu_i - r) - 2r(\mu_i -r) + c \mu_i} \\
 P^{*}&=&r/d \\
 I_n^{*}&=& \frac{r}{r + \mu_{ld}}B \\
 I_p^{*}&=&\frac{rB}{\mu_p(r + \mu_{ld}} \bigg[ \mu_{ld} + \frac{\mu_i r}{\mu_i -r} \\
