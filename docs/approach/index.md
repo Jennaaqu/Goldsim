@@ -35,6 +35,20 @@ $$
 | m | Decay rate |0.08 1/hr |   |
 | $$\mu_i$$ | Induction rate | 0.02 1/hr | Toni's student   |
 
+### Equilibrium concentrations of the metabolic model
+This concentrations were obtained by:
+1. Making the differential equations equal to zero.
+2. Assuming on a first approximation exponential growth (i.e., there is no carrying capacity)
+$$
+\begin{align*}
+B^{*}=\frac{m/d \big( r+ \mu_{ld} \big) \big(\mu_i -r \big) }{\mu_{ld}(c -1)(\mu_i - r) - 2r(\mu_i -r) + c \mu_i} \\
+P^{*}&=&r/d \\
+I_n^{*}&=& \frac{r}{r + \mu_{ld}}B \\
+I_p^{*}&=&\frac{rB}{\mu_p(r + \mu_{ld}} \\
+L^{*}&=&r/d \\
+\end{align*}
+$$
+
 
 
 ## 1.2. The coinfection model:
