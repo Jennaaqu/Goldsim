@@ -22,7 +22,6 @@ $$
 \underbrace{\mathcal{P}(L)I_n }_{\text{lysogeny}} -
 \underbrace{\mu_i L}_{\text{induction}} \\
 \end{align*}
-
 $$
 
 | Parameter | Description | Value| Source|
