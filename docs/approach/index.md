@@ -26,14 +26,14 @@ $$
 
 | Parameter | Description | Value| Source|
 | ----------- | ----------- | ----------- | ----------- |
-| r | Maximum Growth Rate |0.471 (wild type), 0.382 (spot- mutant)  | Experiment data |
-| H | Hill functions |8.2x10 7 (Wild type), 1x10 8 (mutant)  | Concentrations of bacteria at the end of the experiments without CX  |
-| d | Infection rate | 0 |  |
-| $$\mu_p$$ | Lysis rate |  |   |
-| c | Burst size | 125 |Da. Paepe et al, 2006  |
-| $$\mathcal{P}(L)$$ | Probability of lysogeny | 0 |  |
-| m | Decay rate | 0.012h<sup>-1</sup>| Da Paepe et al, 2006  |
-| $$\mu_i$$ | Induction rate |  |   |
+| r | Maximum Growth Rate |0.17 1/hr | (Silveira et. al, 2021)  |
+| H | Hill functions | |   |
+| d | Infection rate | |  |
+| $$\mu_p$$ | Time for phage to lyse | 1/hr|unit conversion factor   |
+| c | Burst size | 5 |  |
+| $$\mathcal{P}(L)$$ | Probability of lysogeny |0.6 | calculated  |
+| m | Decay rate |0.08 1/hr |   |
+| $$\mu_i$$ | Induction rate | 0.02 1/hr | Toni's student   |
 
 
 
@@ -63,15 +63,15 @@ $$
 
 The processes considered in the model are controlled by the parameters shown in this table:
 
-| Parameter | Description | Value| Source|
-| ----------- | ----------- | ----------- | ----------- |
-| r | Maximum Growth Rate |   |  |
-| K | Carrying capacity |  |  |
-| d | Infection rate | 0 |  |
-| $$\mu_p$$ | Lysis rate |  |   |
-| c | Burst size | 125 |Da. Paepe et al, 2006  |
-| m | Decay rate | 0.012h<sup>-1</sup>| Da Paepe et al, 2006  |
-| $$\mu_{ld}$$ | Induction rate |  |   |
-| $$\mu_i$$ | Induction rate |  |   |
+| Parameter | Description | Value| Source| Phage Species|Host|
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| r | Maximum Growth Rate |0.17 hr^-1| (Silveira et. al, 2021)|  |
+| K | Carrying capacity |1e9 items/ml|Toni's student  | | |
+| d | Infection rate |1.06e-8 ml/hr| (Luque and Silveira, 2020)  | | |
+| c | Burst size | 11 | (M.Middelboe et al.,2001) | Myoviridae | Vibrio sp. |
+| m | Decay rate | 0.528 hr^-1| (C.A. Suttle,1994)   |Myoviridae |Vibrio sp. |
+| $$\mu_{ld}$$ | Lysogenic decision rate window |0.5354 hr^-1 | calculated   | | |
+| $$\mu_{p}$$ | Time for phage to lyse |0.1338 hr^-1| calculated   | | |
+| $$\mu_i$$ | Induction rate |0.02 hr^-1| Toni's student   | | |
 
 
