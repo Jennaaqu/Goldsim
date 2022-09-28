@@ -22,7 +22,6 @@ $$
 \underbrace{\mathcal{P}(L)I_n }_{\text{lysogeny}} -
 \underbrace{\mu_i L}_{\text{induction}} \\
 \end{align*}
-
 $$
 
 | Parameter | Description | Value| Source|
@@ -35,7 +34,10 @@ $$
 | $$\mathcal{P}(L)$$ | Probability of lysogeny |0.6 | calculated  |
 | m | Decay rate |0.08 1/hr |   |
 | $$\mu_i$$ | Induction rate | 0.02 1/hr | Toni's student   |
-
+| $$B_0$$ | Initial sensitive concentration | $$B0 cells/ml $$|  Silveira et. al, 2021 |
+| $$P_0$$ | Initial phage concentration | $$P0 cells/ml $$|  Silveira et. al, 2021 |
+| $$I_{N0}$$ | Initial infected concentration | $$In0 cells/ml $$|   |
+| $$L_0$$ | Initial lysogen concentration | $$L0 cells/ml $$|  Silveira et. al, 2021 | 
 
 
 ## 1.2. The coinfection model:
@@ -74,5 +76,22 @@ The processes considered in the model are controlled by the parameters shown in 
 | $$\mu_{ld}$$ | Lysogenic decision rate window |0.5354 hr^-1 | calculated   | | |
 | $$\mu_{p}$$ | Time for phage to lyse |0.1338 hr^-1| calculated   | | |
 | $$\mu_i$$ | Induction rate |0.02 hr^-1| Toni's student   | | |
+| $$B_0$$ | Initial sensitive concentration | $$B0 cells/ml $$|  Silveira et. al, 2021 |
+| $$P_0$$ | Initial phage concentration | $$P0 cells/ml $$|  Silveira et. al, 2021 |
+| $$I_{N0}$$ | Initial infected concentration | $$In0 cells/ml $$|   |
+| $$I_{P0}$$ | Initial phage producing concentration | $$Ip0 cells/ml $$|   |
+| $$L_0$$ | Initial lysogen concentration | $$L0 cells/ml $$|  Silveira et. al, 2021 | 
 
-
+### Equilibrium concentrations of the coinfection model
+This concentrations were obtained by:
+1. Making the differential equations equal to zero.
+2. Assuming on a first approximation exponential growth (i.e., there is no carrying capacity)
+$$
+\begin{align*}
+B^{*}=\frac{m/d \big( r+ \mu_{ld} \big) \big(\mu_i -r \big) }{\mu_{ld}(c -1)(\mu_i - r) - 2r(\mu_i -r) + c \mu_i} \\
+P^{*}=r/d \\
+I_n^{*}= \frac{r}{r + \mu_{ld}} B \\
+I_p^{*}=\frac{rB}{\mu_p(r + \mu_{ld}} \bigg[ \mu_{ld} + \frac{\mu_i r}{\mu_i -r} \bigg] \\
+L^{*}=\frac{r^2}{(r + \mu_{ld})(\mu_i -r)}B \\
+\end{align*}
+$$
