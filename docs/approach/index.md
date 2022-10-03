@@ -76,8 +76,8 @@ The processes considered in the model are controlled by the parameters shown in 
 | $$\mu_{ld}$$ | Lysogenic decision rate window |$$0.5354 hr^-1$$ | |calculated   | | |
 | $$\mu_{p}$$ | Time for phage to lyse |$$0.1338 hr^{-1}$$| |calculated   | | |
 | $$\mu_i$$ | Induction rate |$$0.02 hr^{-1}$$| |Emili's thesis   | | |
-| $$B_0$$ | Initial sensitive concentration | $$3.78 \cdot 10^{4}, 1.54 \cdot 10^{6}  cells/ml $$| |  Silveira et. al, 2021 |
-| $$P_0$$ | Initial phage concentration | $$1.4 \cdot 10^{5}, 1.17 \cdot 10^{7} phage/ml $$|  |Silveira et. al, 2021 |
+| $$B_0$$ | Initial sensitive concentration | $$1.6 \cdot 10^7 phage/ml$$ | $$3.78 \cdot 10^{4}, 1.54 \cdot 10^{6}  cells/ml $$|  Silveira et. al, 2021 |
+| $$P_0$$ | Initial phage concentration | | $$1.4 \cdot 10^{5}, 1.17 \cdot 10^{7} phage/ml $$ |Silveira et. al, 2021 |
 | $$I_{N0}$$ | Initial infected concentration | $$0 cells/ml $$| |  |
 | $$I_{P0}$$ | Initial phage producing concentration | $$0 cells/ml $$| |  |
 | $$L_0$$ | Initial lysogen concentration | $$0.1 B_0 $$|  |Silveira et. al, 2021 | 
