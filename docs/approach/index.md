@@ -34,10 +34,10 @@ $$
 | $$\mathcal{P}(L)$$ | Probability of lysogeny |0.6 | calculated  |
 | m | Decay rate |0.08 1/hr |   |
 | $$\mu_i$$ | Induction rate | 0.02 1/hr | Toni's student   |
-| $$B_0$$ | Initial sensitive concentration | $$2.5e6 cells/ml $$|  Silveira et. al, 2021 |
-| $$P_0$$ | Initial phage concentration | $$1.6e7 phage/ml $$|  Silveira et. al, 2021 |
+| $$B_0$$ | Initial sensitive concentration | $$B0 cells/ml $$|  Silveira et. al, 2021 |
+| $$P_0$$ | Initial phage concentration | $$P0 cells/ml $$|  Silveira et. al, 2021 |
 | $$I_{N0}$$ | Initial infected concentration | $$In0 cells/ml $$|   |
-| $$L_0$$ | Initial lysogen concentration | $$ cells/ml $$|  Silveira et. al, 2021 | 
+| $$L_0$$ | Initial lysogen concentration | $$L0 cells/ml $$|  Silveira et. al, 2021 | 
 
 
 ## 1.2. The coinfection model:
@@ -69,13 +69,13 @@ The processes considered in the model are controlled by the parameters shown in 
 | Parameter | Description | Value| Source| Phage Species|Host|
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | r | Maximum Growth Rate |$$0.17 hr^{-1}$$| (Silveira et. al, 2021)|  |
-| K | Carrying capacity |1e9 items/ml|Toni's student  | | |
-| d | Infection rate |1.06e-8 ml/hr| (Luque and Silveira, 2020)  | | |
+| K | Carrying capacity |$$1e9 items/ml$$|Toni's student  | | |
+| d | Infection rate |$$1.06e-8 ml/hr$$| (Luque and Silveira, 2020)  | | |
 | c | Burst size | 11 | (M.Middelboe et al.,2001) | Myoviridae | Vibrio sp. |
-| m | Decay rate | 0.528 hr^-1| (C.A. Suttle,1994)   |Myoviridae |Vibrio sp. |
-| $$\mu_{ld}$$ | Lysogenic decision rate window |0.5354 hr^-1 | calculated   | | |
-| $$\mu_{p}$$ | Time for phage to lyse |0.1338 hr^-1| calculated   | | |
-| $$\mu_i$$ | Induction rate |0.02 hr^-1| Toni's student   | | |
+| m | Decay rate | $$0.528 hr^-1$$| (C.A. Suttle,1994)   |Myoviridae |Vibrio sp. |
+| $$\mu_{ld}$$ | Lysogenic decision rate window |$$0.5354 hr^-1$$ | calculated   | | |
+| $$\mu_{p}$$ | Time for phage to lyse |$$0.1338 hr^{-1}$$| calculated   | | |
+| $$\mu_i$$ | Induction rate |$$0.02 hr^{-1}$$| Toni's student   | | |
 | $$B_0$$ | Initial sensitive concentration | $$B0 cells/ml $$|  Silveira et. al, 2021 |
 | $$P_0$$ | Initial phage concentration | $$P0 cells/ml $$|  Silveira et. al, 2021 |
 | $$I_{N0}$$ | Initial infected concentration | $$In0 cells/ml $$|   |
