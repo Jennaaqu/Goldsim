@@ -66,21 +66,21 @@ $$
 
 The processes considered in the model are controlled by the parameters shown in this table:
 
-| Parameter | Description | Value| Source| Phage Species|Host|
-| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| r | Maximum Growth Rate |$$0.17 hr^{-1}$$| (Silveira et. al, 2021)|  |
-| K | Carrying capacity |$$1e9 items/ml$$|Toni's student  | | |
-| d | Infection rate |$$1.06e-8 ml/hr$$| (Luque and Silveira, 2020)  | | |
-| c | Burst size | 11 | (M.Middelboe et al.,2001) | Myoviridae | Vibrio sp. |
-| m | Decay rate | $$0.528 hr^-1$$| (C.A. Suttle,1994)   |Myoviridae |Vibrio sp. |
-| $$\mu_{ld}$$ | Lysogenic decision rate window |$$0.5354 hr^-1$$ | calculated   | | |
-| $$\mu_{p}$$ | Time for phage to lyse |$$0.1338 hr^{-1}$$| calculated   | | |
-| $$\mu_i$$ | Induction rate |$$0.02 hr^{-1}$$| Emili's thesis   | | |
-| $$B_0$$ | Initial sensitive concentration | $$B0 cells/ml $$|  Silveira et. al, 2021 |
-| $$P_0$$ | Initial phage concentration | $$P0 cells/ml $$|  Silveira et. al, 2021 |
-| $$I_{N0}$$ | Initial infected concentration | $$In0 cells/ml $$|   |
-| $$I_{P0}$$ | Initial phage producing concentration | $$Ip0 cells/ml $$|   |
-| $$L_0$$ | Initial lysogen concentration | $$L0 cells/ml $$|  Silveira et. al, 2021 | 
+| Parameter | Description | Value| Minimum/Maximum | Source| Phage Species|Host|
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| r | Maximum Growth Rate |$$0.17 hr^{-1}$$| | (Silveira et. al, 2021)|  |
+| K | Carrying capacity |$$1e9 items/ml$$| |Toni's student  | | |
+| d | Infection rate |$$1.06e-8 ml/hr$$| |(Luque and Silveira, 2020)  | | |
+| c | Burst size | 11 | |(M.Middelboe et al.,2001) | Myoviridae | Vibrio sp. |
+| m | Decay rate | $$0.528 hr^-1$$| |(C.A. Suttle,1994)   |Myoviridae |Vibrio sp. |
+| $$\mu_{ld}$$ | Lysogenic decision rate window |$$0.5354 hr^-1$$ | |calculated   | | |
+| $$\mu_{p}$$ | Time for phage to lyse |$$0.1338 hr^{-1}$$| |calculated   | | |
+| $$\mu_i$$ | Induction rate |$$0.02 hr^{-1}$$| |Emili's thesis   | | |
+| $$B_0$$ | Initial sensitive concentration | $$B0 cells/ml $$| |  Silveira et. al, 2021 |
+| $$P_0$$ | Initial phage concentration | $$P0 cells/ml $$|  |Silveira et. al, 2021 |
+| $$I_{N0}$$ | Initial infected concentration | $$In0 cells/ml $$| |  |
+| $$I_{P0}$$ | Initial phage producing concentration | $$Ip0 cells/ml $$| |  |
+| $$L_0$$ | Initial lysogen concentration | $$L0 cells/ml $$|  |Silveira et. al, 2021 | 
 
 ### Equilibrium concentrations of the coinfection model
 This concentrations were obtained by:
