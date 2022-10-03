@@ -67,7 +67,7 @@ $$
 The processes considered in the model are controlled by the parameters shown in this table:
 
 | Parameter | Description | Value| Minimum/Maximum | Source| Phage Species|Host|
-| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| -------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | r | Maximum Growth Rate |$$0.17 hr^{-1}$$| | (Silveira et. al, 2021)|  |
 | K | Carrying capacity |$$1e9 items/ml$$| |Toni's student  | | |
 | d | Infection rate |$$1.06e-8 ml/hr$$| |(Luque and Silveira, 2020)  | | |
