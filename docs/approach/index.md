@@ -67,11 +67,11 @@ $$
 The processes considered in the model are controlled by the parameters shown in this table:
 
 | Parameter | Description | Value| Minimum/Maximum | Source| Phage Species|Host|
-| -------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| ------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | r | Maximum Growth Rate |$$0.17 hr^{-1}$$| | (Silveira et. al, 2021)|  |
 | K | Carrying capacity |$$1 \cdot 10^9 items/ml$$| |Toni's student  | | |
 | d | Infection rate |$$1.06 \cdot 10^{-8} ml/hr$$| $$7.2 \cdot 10 ^{-10} 3.7 \cdot 10^{-7} ml/h$$ |(Luque and Silveira, 2020)  | | |
-| c | Burst size | 11 | |(M.Middelboe et al.,2001) | Myoviridae | Vibrio sp. |
+| c | Burst size | $$11$$ | |(M.Middelboe et al.,2001) | Myoviridae | Vibrio sp. |
 | m | Decay rate | $$0.528 hr^{-1}$$| |(C.A. Suttle,1994)   |Myoviridae |Vibrio sp. |
 | $$\mu_{ld}$$ | Lysogenic decision rate window |$$0.5354 hr^-1$$ | |calculated   | | |
 | $$\mu_{p}$$ | Time for phage to lyse |$$0.1338 hr^{-1}$$| |calculated   | | |
@@ -80,7 +80,7 @@ The processes considered in the model are controlled by the parameters shown in 
 | $$P_0$$ | Initial phage concentration |$$1.6 \cdot 10^7$$ | $$1.4 \cdot 10^{5}, 1.17 \cdot 10^{7} phage/ml $$ |Silveira et. al, 2021 |
 | $$I_{N0}$$ | Initial infected concentration | $$0 cells/ml $$| |  |
 | $$I_{P0}$$ | Initial phage producing concentration | $$0 cells/ml $$| |  |
-| $$L_0$$ | Initial lysogen concentration | $$0.1 B_0 $$| [0.0001, 0.1] | inferred from Silveira et. al, 2021 | 
+| $$L_0$$ | Initial lysogen concentration | $$0.1 B_0 $$| $$[0.0001, 0.1]$$ | inferred from Silveira et. al, 2021 | 
 
 ### Equilibrium concentrations of the coinfection model
 This concentrations were obtained by:
