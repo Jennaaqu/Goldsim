@@ -80,7 +80,7 @@ The processes considered in the model are controlled by the parameters shown in 
 | $$P_0$$ | Initial phage concentration |$$1.6 \cdot 10^7$$ | $$1.4 \cdot 10^{5}, 1.17 \cdot 10^{7} phage/ml $$ |Silveira et. al, 2021 |
 | $$I_{N0}$$ | Initial infected concentration | $$0 cells/ml $$| |  |
 | $$I_{P0}$$ | Initial phage producing concentration | $$0 cells/ml $$| |  |
-| $$L_0$$ | Initial lysogen concentration | $$0.1 B_0 $$|  |Silveira et. al, 2021 | 
+| $$L_0$$ | Initial lysogen concentration | $$0.1 B_0 $$| [0.0001, 0.1] | inferred from Silveira et. al, 2021 | 
 
 ### Equilibrium concentrations of the coinfection model
 This concentrations were obtained by:
