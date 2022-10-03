@@ -75,7 +75,7 @@ The processes considered in the model are controlled by the parameters shown in 
 | m | Decay rate | $$0.528 hr^-1$$| (C.A. Suttle,1994)   |Myoviridae |Vibrio sp. |
 | $$\mu_{ld}$$ | Lysogenic decision rate window |$$0.5354 hr^-1$$ | calculated   | | |
 | $$\mu_{p}$$ | Time for phage to lyse |$$0.1338 hr^{-1}$$| calculated   | | |
-| $$\mu_i$$ | Induction rate |$$0.02 hr^{-1}$$| Toni's student   | | |
+| $$\mu_i$$ | Induction rate |$$0.02 hr^{-1}$$| Emili's thesis   | | |
 | $$B_0$$ | Initial sensitive concentration | $$B0 cells/ml $$|  Silveira et. al, 2021 |
 | $$P_0$$ | Initial phage concentration | $$P0 cells/ml $$|  Silveira et. al, 2021 |
 | $$I_{N0}$$ | Initial infected concentration | $$In0 cells/ml $$|   |
