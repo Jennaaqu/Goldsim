@@ -26,9 +26,12 @@ $$
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 
+=======
+>>>>>>> parent of 1a80513 (Update index.md)
 =======
 >>>>>>> parent of 1a80513 (Update index.md)
 | Parameter | Description | Value| Source|
@@ -41,6 +44,7 @@ $$
 | $$\mathcal{P}(L)$$ | Probability of lysogeny |0.6 | calculated  |
 | m | Decay rate |0.08 1/hr |   |
 | $$\mu_i$$ | Induction rate | 0.02 1/hr | Toni's student   |
+<<<<<<< HEAD
 <<<<<<< HEAD
 | $$B_0$$ | Initial sensitive concentration | $$B0 cells/ml $$|  Luque et. al, 2020 |
 | $$P_0$$ | Initial phage concentration | $$P0 cells/ml $$|  Luque et. al, 2020 |
@@ -70,11 +74,16 @@ $$
 | $$L_0$$ | Initial lysogen concentration | $$0.1 B_0 $$| $$[0.0001, 0.1]$$ | inferred from Silveira et. al, 2021 |
 >>>>>>> parent of 99d2083 (Update index.md)
 =======
+=======
+>>>>>>> parent of 1a80513 (Update index.md)
 | $$B_0$$ | Initial sensitive concentration | $$B0 cells/ml $$|  Silveira et. al, 2021 |
 | $$P_0$$ | Initial phage concentration | $$P0 cells/ml $$|  Silveira et. al, 2021 |
 | $$I_{N0}$$ | Initial infected concentration | $$In0 cells/ml $$|   |
 | $$L_0$$ | Initial lysogen concentration | $$L0 cells/ml $$|  Silveira et. al, 2021 | 
 
+<<<<<<< HEAD
+>>>>>>> parent of 1a80513 (Update index.md)
+=======
 >>>>>>> parent of 1a80513 (Update index.md)
 
 ## 1.2. The coinfection model:
