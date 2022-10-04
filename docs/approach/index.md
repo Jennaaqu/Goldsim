@@ -25,8 +25,6 @@ $$
 $$
 
 
-=======
-
 | Parameter | Description | Value| Source|
 | ----------- | ----------- | ----------- | ----------- |
 | r | Maximum Growth Rate |0.17 1/hr | (Silveira et. al, 2021)  |
@@ -42,11 +40,6 @@ $$
 | $$I_{N0}$$ | Initial infected concentration | $$In0 cells/ml $$|   |
 | $$L_0$$ | Initial lysogen concentration | $$L0 cells/ml $$|  Silveira et. al, 2021 | 
 
-=======
-
-=======
->>>>>>> 1a80513f998553593a0a42ee16d5a6bd4bd4602a
->>>>>>> Stashed changes
 
 ## 1.2. The coinfection model:
 
@@ -75,7 +68,6 @@ $$
 The processes considered in the model are controlled by the parameters shown in this table:
 
 
-=======
 
 | Parameter | Description | Value| Source| Phage Species|Host|
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
@@ -92,7 +84,6 @@ The processes considered in the model are controlled by the parameters shown in 
 | $$I_{N0}$$ | Initial infected concentration | $$In0 cells/ml $$|   |
 | $$I_{P0}$$ | Initial phage producing concentration | $$Ip0 cells/ml $$|   |
 | $$L_0$$ | Initial lysogen concentration | $$L0 cells/ml $$|  Silveira et. al, 2021 | 
-=======
 
 
 ### Equilibrium concentrations of the coinfection model
