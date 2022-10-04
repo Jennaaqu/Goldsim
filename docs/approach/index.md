@@ -86,8 +86,8 @@ Concentrations for lysogeny [0.1, ~0.5]:
 
 | Parameter | Description | Min | 1st Qu| Median| Mean| 3rd Qu| Max| Source| 
 |-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-| $$B_0$$ | Initial sensitive concentration | $$3.8 \cdot 10^4 cells/ml$$ | $$7.9 \cdot 10^{5}$$ | $$2.00 \cdot 10^{6}  cells/ml $$| $$2.5 \cdot 10^{6}  cells/ml $$| $$3.9 \cdot 10^{6}  cells/ml $$| $$6.7 \cdot 10^{6}  cells/ml $$|  Luque et. al, 2020 |
-
+| $$B_0$$ | Initial sensitive concentration | $$3.8 \cdot 10^4 cells/ml$$ | $$7.9 \cdot 10^{5} cells/ml$$ | $$2.00 \cdot 10^{6}  cells/ml $$| $$2.5 \cdot 10^{6}  cells/ml $$| $$3.9 \cdot 10^{6}  cells/ml $$| $$6.7 \cdot 10^{6}  cells/ml $$|  Luque et. al, 2020 |
+| $$P_0$$ | Initial phage concentration | $$6.2 \cdot 10^5 phage/ml$$ | $$6.3 \cdot 10^{6} phage/ml$$ | $$6.3 \cdot 10^{6}  phage/ml $$| $$1.3 \cdot 10^{7}  phage/ml $$| $$1.6 \cdot 10^{7}  phage/ml $$| $$2.5 \cdot 10^{7}  phage/ml $$|  Luque et. al, 2020 |
 
 | $$P_0$$ | Initial phage concentration |$$1.6 \cdot 10^7$$ | $$1.4 \cdot 10^{5}, 1.17 \cdot 10^{7} phage/ml $$ |Luque et. al, 2020 |
 | $$I_{N0}$$ | Initial infected concentration | $$0 cells/ml $$| |  |
