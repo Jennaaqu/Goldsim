@@ -24,9 +24,9 @@ $$
 \end{align*}
 $$
 
-<<<<<<< Updated upstream
+
 =======
-<<<<<<< HEAD
+
 | Parameter | Description | Value| Source|
 | ----------- | ----------- | ----------- | ----------- |
 | r | Maximum Growth Rate |0.17 1/hr | (Silveira et. al, 2021)  |
@@ -43,23 +43,7 @@ $$
 | $$L_0$$ | Initial lysogen concentration | $$L0 cells/ml $$|  Silveira et. al, 2021 | 
 
 =======
->>>>>>> Stashed changes
-| Parameter | Description | Value| Minimum/Maximum | Source| Phage Species| Host|
-| ------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| r | Maximum Growth Rate |$$7 \cdot 10^{-3} hr^{-1}$$| $$2.95 \cdot 10^{-3}, 7 \cdot 10^{-3} h^{-1}$$ | (Silveira et. al, 2021)|  |             
-| H | Hill functions      | $$[0,1]$$ |   | | | 
-| d | Infection rate |$$1.06 \cdot 10^{-8} ml/hr$$| $$7.2 \cdot 10 ^{-10}, 3.7 \cdot 10^{-7} ml/h$$ |(Luque and Silveira, 2020)  | | |
-| c | Burst size | $$11$$ | |(M.Middelboe et al.,2001) | Myoviridae | Vibrio sp. |
-| m | Decay rate | $$0.528 hr^{-1}$$| |(C.A. Suttle,1994)   |Myoviridae |Vibrio sp. |
-| $$\mathcal{P}(L)$$ | Probability of lysogeny | [0.1,0.7] |  |
-| $$m$$ | Decay rate | $$0.012 h^{-1}$$| Da Paepe et al, 2006  | 
-| $$\mu_i$$ | Induction rate |$$0.02 hr^{-1}$$| |Emily's thesis   | | |
-| $$B_0$$ | Initial sensitive concentration | $$2.5 \cdot 10^6 cells/ml$$ | $$3.78 \cdot 10^{4}, 1.54 \cdot 10^{6}  cells/ml $$|  Silveira et. al, 2021 |
-| $$P_0$$ | Initial phage concentration |$$1.6 \cdot 10^7$$ | $$1.4 \cdot 10^{5}, 1.17 \cdot 10^{7} phage/ml $$ |Silveira et. al, 2021 |
-| $$I_{N0}$$ | Initial infected concentration | $$0 cells/ml $$| |  |
-| $$I_{P0}$$ | Initial phage producing concentration | $$0 cells/ml $$| |  |
-| $$L_0$$ | Initial lysogen concentration | $$0.1 B_0 $$| $$[0.0001, 0.1]$$ | inferred from Silveira et. al, 2021 |
-<<<<<<< Updated upstream
+
 =======
 >>>>>>> 1a80513f998553593a0a42ee16d5a6bd4bd4602a
 >>>>>>> Stashed changes
@@ -90,9 +74,9 @@ $$
 
 The processes considered in the model are controlled by the parameters shown in this table:
 
-<<<<<<< Updated upstream
+
 =======
-<<<<<<< HEAD
+
 | Parameter | Description | Value| Source| Phage Species|Host|
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | r | Maximum Growth Rate |0.17 hr^-1| (Silveira et. al, 2021)|  |
@@ -109,26 +93,7 @@ The processes considered in the model are controlled by the parameters shown in 
 | $$I_{P0}$$ | Initial phage producing concentration | $$Ip0 cells/ml $$|   |
 | $$L_0$$ | Initial lysogen concentration | $$L0 cells/ml $$|  Silveira et. al, 2021 | 
 =======
->>>>>>> Stashed changes
-| Parameter | Description | Value| Minimum/Maximum | Source| Phage Species|Host|
-| ------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| r | Maximum Growth Rate |$$7 \cdot 10^{-3} hr^{-1}$$| $$2.95 \cdot 10^{-3}, 7 \cdot 10^{-3} h^{-1}$$ | (Silveira et. al, 2021)|  |
-| K | Carrying capacity |$$1 \cdot 10^9 cells/ml$$| |Toni's student  | | |
-| d | Infection rate |$$1.06 \cdot 10^{-8} ml/hr$$| $$7.2 \cdot 10 ^{-10}, 3.7 \cdot 10^{-7} ml/h$$ |(Luque and Silveira, 2020)  | | |
-| c | Burst size | $$11$$ | |(M.Middelboe et al.,2001) | Myoviridae | Vibrio sp. |
-| m | Decay rate | $$0.528 hr^{-1}$$| |(C.A. Suttle,1994)   |Myoviridae |Vibrio sp. |
-| $$\mu_{ld}$$ | Lysogenic decision rate window |$$0.5354 hr^-1$$ | |calculated   | | |
-| $$\mu_{p}$$ | Time for phage to lyse |$$0.1338 hr^{-1}$$| |calculated   | | |
-| $$\mu_i$$ | Induction rate |$$0.02 hr^{-1}$$| |Emily's thesis   | | |
-| $$B_0$$ | Initial sensitive concentration | $$2.5 \cdot 10^6 cells/ml$$ | $$3.78 \cdot 10^{4}, 1.54 \cdot 10^{6}  cells/ml $$|  Silveira et. al, 2021 |
-| $$P_0$$ | Initial phage concentration |$$1.6 \cdot 10^7$$ | $$1.4 \cdot 10^{5}, 1.17 \cdot 10^{7} phage/ml $$ |Silveira et. al, 2021 |
-| $$I_{N0}$$ | Initial infected concentration | $$0 cells/ml $$| |  |
-| $$I_{P0}$$ | Initial phage producing concentration | $$0 cells/ml $$| |  |
-| $$L_0$$ | Initial lysogen concentration | $$0.1 B_0 $$| $$[0.0001, 0.1]$$ | inferred from Silveira et. al, 2021 | 
-<<<<<<< Updated upstream
-=======
->>>>>>> 1a80513f998553593a0a42ee16d5a6bd4bd4602a
->>>>>>> Stashed changes
+
 
 ### Equilibrium concentrations of the coinfection model
 This concentrations were obtained by:
