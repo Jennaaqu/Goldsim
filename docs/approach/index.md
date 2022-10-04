@@ -24,54 +24,8 @@ $$
 \end{align*}
 $$
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
 
-=======
->>>>>>> parent of 1a80513 (Update index.md)
-=======
->>>>>>> parent of 1a80513 (Update index.md)
-=======
->>>>>>> parent of 1a80513 (Update index.md)
-=======
->>>>>>> parent of 1a80513 (Update index.md)
-=======
->>>>>>> parent of 1a80513 (Update index.md)
-| Parameter | Description | Value| Source|
-| ----------- | ----------- | ----------- | ----------- |
-| r | Maximum Growth Rate |0.17 1/hr | (Silveira et. al, 2021)  |
-| H | Hill functions | |   |
-| d | Infection rate | |  |
-| $$\mu_p$$ | Time for phage to lyse | 1/hr|unit conversion factor   |
-| c | Burst size | 5 |  |
-| $$\mathcal{P}(L)$$ | Probability of lysogeny |0.6 | calculated  |
-| m | Decay rate |0.08 1/hr |   |
-| $$\mu_i$$ | Induction rate | 0.02 1/hr | Toni's student   |
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-| $$B_0$$ | Initial sensitive concentration | $$B0 cells/ml $$|  Luque et. al, 2020 |
-| $$P_0$$ | Initial phage concentration | $$P0 cells/ml $$|  Luque et. al, 2020 |
-| $$I_{N0}$$ | Initial infected concentration | $$In0 cells/ml $$|   |
-| $$L_0$$ | Initial lysogen concentration | $$L0 cells/ml $$|  Silveira et. al, 2021 | 
-
-=======
-
-=======
->>>>>>> 1a80513f998553593a0a42ee16d5a6bd4bd4602a
->>>>>>> Stashed changes
-=======
-=======
->>>>>>> e1216730fcb06441fc58a46e79b9bc4b182118c2
 | Parameter | Description | Value| Minimum/Maximum | Source| Phage Species| Host|
 | ------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | r | Maximum Growth Rate |$$7 \cdot 10^{-3} hr^{-1}$$| $$2.95 \cdot 10^{-3}, 7 \cdot 10^{-3} h^{-1}$$ | (Silveira et. al, 2021)|  |             
@@ -87,37 +41,6 @@ $$
 | $$I_{N0}$$ | Initial infected concentration | $$0 cells/ml $$| |  |
 | $$I_{P0}$$ | Initial phage producing concentration | $$0 cells/ml $$| |  |
 | $$L_0$$ | Initial lysogen concentration | $$0.1 B_0 $$| $$[0.0001, 0.1]$$ | inferred from Silveira et. al, 2021 |
-<<<<<<< HEAD
->>>>>>> parent of 99d2083 (Update index.md)
-=======
-=======
->>>>>>> parent of 1a80513 (Update index.md)
-=======
->>>>>>> parent of 1a80513 (Update index.md)
-=======
->>>>>>> parent of 1a80513 (Update index.md)
-=======
->>>>>>> parent of 1a80513 (Update index.md)
-| $$B_0$$ | Initial sensitive concentration | $$B0 cells/ml $$|  Silveira et. al, 2021 |
-| $$P_0$$ | Initial phage concentration | $$P0 cells/ml $$|  Silveira et. al, 2021 |
-| $$I_{N0}$$ | Initial infected concentration | $$In0 cells/ml $$|   |
-| $$L_0$$ | Initial lysogen concentration | $$L0 cells/ml $$|  Silveira et. al, 2021 | 
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 1a80513 (Update index.md)
-=======
->>>>>>> parent of 1a80513 (Update index.md)
-=======
->>>>>>> parent of 1a80513 (Update index.md)
-=======
->>>>>>> parent of 1a80513 (Update index.md)
-=======
->>>>>>> parent of 1a80513 (Update index.md)
-=======
->>>>>>> e1216730fcb06441fc58a46e79b9bc4b182118c2
 
 ## 1.2. The coinfection model:
 
