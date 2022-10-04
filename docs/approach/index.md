@@ -30,6 +30,7 @@ $$
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 
@@ -69,6 +70,8 @@ $$
 >>>>>>> 1a80513f998553593a0a42ee16d5a6bd4bd4602a
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> e1216730fcb06441fc58a46e79b9bc4b182118c2
 | Parameter | Description | Value| Minimum/Maximum | Source| Phage Species| Host|
 | ------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | r | Maximum Growth Rate |$$7 \cdot 10^{-3} hr^{-1}$$| $$2.95 \cdot 10^{-3}, 7 \cdot 10^{-3} h^{-1}$$ | (Silveira et. al, 2021)|  |             
@@ -84,6 +87,7 @@ $$
 | $$I_{N0}$$ | Initial infected concentration | $$0 cells/ml $$| |  |
 | $$I_{P0}$$ | Initial phage producing concentration | $$0 cells/ml $$| |  |
 | $$L_0$$ | Initial lysogen concentration | $$0.1 B_0 $$| $$[0.0001, 0.1]$$ | inferred from Silveira et. al, 2021 |
+<<<<<<< HEAD
 >>>>>>> parent of 99d2083 (Update index.md)
 =======
 =======
@@ -112,6 +116,8 @@ $$
 >>>>>>> parent of 1a80513 (Update index.md)
 =======
 >>>>>>> parent of 1a80513 (Update index.md)
+=======
+>>>>>>> e1216730fcb06441fc58a46e79b9bc4b182118c2
 
 ## 1.2. The coinfection model:
 
@@ -139,31 +145,9 @@ $$
 
 The processes considered in the model are controlled by the parameters shown in this table:
 
-<<<<<<< HEAD
-
-=======
-
-| Parameter | Description | Value| Source| Phage Species|Host|
-| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| r | Maximum Growth Rate |0.17 hr^-1| (Silveira et. al, 2021)|  |
-| K | Carrying capacity |1e9 items/ml|Toni's student  | | |
-| d | Infection rate |1.06e-8 ml/hr| (Luque and Silveira, 2020)  | | |
-| c | Burst size | 11 | (M.Middelboe et al.,2001) | Myoviridae | Vibrio sp. |
-| m | Decay rate | 0.528 hr^-1| (C.A. Suttle,1994)   |Myoviridae |Vibrio sp. |
-| $$\mu_{ld}$$ | Lysogenic decision rate window |0.5354 hr^-1 | calculated   | | |
-| $$\mu_{p}$$ | Time for phage to lyse |0.1338 hr^-1| calculated   | | |
-| $$\mu_i$$ | Induction rate |0.02 hr^-1| Toni's student   | | |
-| $$B_0$$ | Initial sensitive concentration | $$B0 cells/ml $$|  Luque et. al, 2020 |
-| $$P_0$$ | Initial phage concentration | $$P0 cells/ml $$|  Luque et. al, 2020 |
-| $$I_{N0}$$ | Initial infected concentration | $$In0 cells/ml $$|   |
-| $$I_{P0}$$ | Initial phage producing concentration | $$Ip0 cells/ml $$|   |
-| $$L_0$$ | Initial lysogen concentration | $$L0 cells/ml $$|  Silveira et. al, 2021 | 
-=======
-
-=======
 | Parameter | Description | Value| Minimum/Maximum | Source| Phage Species|Host|
 | ------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| r | Maximum Growth Rate |$$0.17 hr^{-1}$$| $$2.95 \cdot 10^{-3}, 7 \cdot 10^{-3} h^{-1}$$ | (Silveira et. al, 2021)|  |
+| r | Maximum Growth Rate |$$7 \cdot 10^{-3} hr^{-1}$$| $$2.95 \cdot 10^{-3}, 7 \cdot 10^{-3} h^{-1}$$ | (Silveira et. al, 2021)|  |
 | K | Carrying capacity |$$1 \cdot 10^9 cells/ml$$| |Toni's student  | | |
 | d | Infection rate |$$1.06 \cdot 10^{-8} ml/hr$$| $$7.2 \cdot 10 ^{-10}, 3.7 \cdot 10^{-7} ml/h$$ |(Luque and Silveira, 2020)  | | |
 | c | Burst size | $$11$$ | |(M.Middelboe et al.,2001) | Myoviridae | Vibrio sp. |
@@ -176,7 +160,6 @@ The processes considered in the model are controlled by the parameters shown in 
 | $$I_{N0}$$ | Initial infected concentration | $$0 cells/ml $$| |  |
 | $$I_{P0}$$ | Initial phage producing concentration | $$0 cells/ml $$| |  |
 | $$L_0$$ | Initial lysogen concentration | $$0.1 B_0 $$| $$[0.0001, 0.1]$$ | inferred from Silveira et. al, 2021 | 
->>>>>>> parent of 99d2083 (Update index.md)
 
 ### Equilibrium concentrations of the coinfection model
 This concentrations were obtained by:
