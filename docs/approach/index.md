@@ -83,7 +83,9 @@ The processes considered in the model are controlled by the parameters shown in 
 Concentrations for lysogeny [0.01, 0.1]:
 
 Concentrations for lysogeny [0.1, ~0.5]:
+
 | Parameter | Description | Min | 1st Qu| Median| Mean| 3rd Qu| Max| Source| 
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 | $$B_0$$ | Initial sensitive concentration | $$2.5 \cdot 10^6 cells/ml$$ | $$3.78 \cdot 10^{4} | 1.54 \cdot 10^{6}  cells/ml $$| $$1.54 \cdot 10^{6}  cells/ml $$| $$1.54 \cdot 10^{6}  cells/ml $$| $$1.54 \cdot 10^{6}  cells/ml $$|  Luque et. al, 2020 |
 
 
