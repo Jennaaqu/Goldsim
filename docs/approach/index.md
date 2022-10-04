@@ -70,9 +70,9 @@ The processes considered in the model are controlled by the parameters shown in 
 
 | Parameter | Description | Value| Minimum/Maximum | Source| Phage Species|Host|
 | ------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| r | Maximum Growth Rate |$$7 \cdot 10^{-3} hr^{-1}$$| $$2.95 \cdot 10^{-3}, 7 \cdot 10^{-3} h^{-1}$$ | (Silveira et. al, 2021)|  |
+| r | Maximum Growth Rate |$$7 \cdot 10^{-3} hr^{-1}$$| $$2.95 \cdot 10^{-3}, 7 \cdot 10^{-3} h^{-1}$$ | Silveira et. al, 2021|  |
 | K | Carrying capacity |$$1 \cdot 10^9 cells/ml$$| |Toni's student  | | |
-| d | Infection rate |$$1.06 \cdot 10^{-8} ml/hr$$| $$7.2 \cdot 10 ^{-10}, 3.7 \cdot 10^{-7} ml/h$$ |(Luque and Silveira, 2020)  | | |
+| d | Infection rate |$$1.06 \cdot 10^{-8} ml/hr$$| $$1.4 \cdot 10 ^{-9}, 3.7 \cdot 10^{-7} ml/h$$ |Luque and Silveira, 2020  | | |
 | c | Burst size | $$11$$ | |(M.Middelboe et al.,2001) | Myoviridae | Vibrio sp. |
 | m | Decay rate | $$0.528 hr^{-1}$$| |(C.A. Suttle,1994)   |Myoviridae |Vibrio sp. |
 | $$\mu_{ld}$$ | Lysogenic decision rate window |$$0.5354 hr^-1$$ | |calculated   | | |
