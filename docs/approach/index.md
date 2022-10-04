@@ -84,7 +84,9 @@ Concentrations for lysogeny [0.01, 0.1]:
 
 Concentrations for lysogeny [0.1, ~0.5]:
 | Parameter | Description | Min | 1st Qu| Median| Mean| 3rd Qu| Max| Value| Source| 
-| $$B_0$$ | Initial sensitive concentration | $$2.5 \cdot 10^6 cells/ml$$ | $$3.78 \cdot 10^{4} | 1.54 \cdot 10^{6}  cells/ml $$| 1.54 \cdot 10^{6}  cells/ml $$|  Luque et. al, 2020 |
+| $$B_0$$ | Initial sensitive concentration | $$2.5 \cdot 10^6 cells/ml$$ | $$3.78 \cdot 10^{4} | 1.54 \cdot 10^{6}  cells/ml $$| $$1.54 \cdot 10^{6}  cells/ml $$| $$1.54 \cdot 10^{6}  cells/ml $$| $$1.54 \cdot 10^{6}  cells/ml $$|  Luque et. al, 2020 |
+
+
 | $$P_0$$ | Initial phage concentration |$$1.6 \cdot 10^7$$ | $$1.4 \cdot 10^{5}, 1.17 \cdot 10^{7} phage/ml $$ |Luque et. al, 2020 |
 | $$I_{N0}$$ | Initial infected concentration | $$0 cells/ml $$| |  |
 | $$I_{P0}$$ | Initial phage producing concentration | $$0 cells/ml $$| |  |
