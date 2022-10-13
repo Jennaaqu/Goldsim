@@ -35,7 +35,7 @@ $$
 | m | Decay rate | $$0.528 hr^{-1}$$| |(C.A. Suttle,1994)   |Myoviridae |Vibrio sp. |
 | $$\mathcal{P}(L)$$ | Probability of lysogeny | [0.1,0.7] |  |
 | $$m$$ | Decay rate | $$0.012 h^{-1}$$| Da Paepe et al, 2006  | 
-| $$\mu_i$$ | Induction rate |$$1.2e-6$$| |   | | |
+| $$\mu_i$$ | Induction rate |$$???$$| |   | | |
 
 Concentrations for lysogeny [0.01, 0.1]:
 
@@ -96,7 +96,7 @@ The processes considered in the model are controlled by the parameters shown in 
 | m | Decay rate | $$0.528 hr^{-1}$$| |(C.A. Suttle,1994)   |Myoviridae |Vibrio sp. |
 | $$\mu_{ld}$$ | Lysogenic decision rate window |$$0.0142 hr^-1$$ | |calculated   | | |
 | $$\mu_{p}$$ | Time for phage to lyse |$$0.003551 hr^{-1}$$| |calculated   | | |
-| $$\mu_i$$ | Induction rate |$$0.02 hr^{-1}$$| |Emily's thesis   | | |
+| $$\mu_i$$ | Induction rate |$$1.2e-6 hr^{-1}$$| |   | | |
 
 
 Concentrations for lysogeny [0.01, 0.1]:
