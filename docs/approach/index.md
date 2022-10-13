@@ -35,7 +35,7 @@ $$
 | m | Decay rate | $$0.528 hr^{-1}$$| |(C.A. Suttle,1994)   |Myoviridae |Vibrio sp. |
 | $$\mathcal{P}(L)$$ | Probability of lysogeny | [0.1,0.7] |  |
 | $$m$$ | Decay rate | $$0.012 h^{-1}$$| Da Paepe et al, 2006  | 
-| $$\mu_i$$ | Induction rate |$$0.02 hr^{-1}$$| |Emily's thesis   | | |
+| $$\mu_i$$ | Induction rate |$$1.2e-6$$| |   | | |
 
 Concentrations for lysogeny [0.01, 0.1]:
 
