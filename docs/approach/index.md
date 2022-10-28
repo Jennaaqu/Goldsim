@@ -31,9 +31,8 @@ $$
 | r | Maximum Growth Rate |$$7 \cdot 10^{-3} h^{-1}$$| $$2.95 \cdot 10^{-3}, 7 \cdot 10^{-3} h^{-1}$$ | (Silveira et. al, 2021)|  |             
 | H | Hill functions      | $$[0,1]$$ |   | | | 
 | c | Burst size | $$11$$ | |(M.Middelboe et al.,2001) | Myoviridae | Vibrio sp. |
-| m | Decay rate | $$0.528 hr^{-1}$$| |(C.A. Suttle,1994)   |Myoviridae |Vibrio sp. |
+| $$m$$ | Decay rate | $$0.528 hr^{-1}$$| |(C.A. Suttle,1994)   |Myoviridae |Vibrio sp. |
 | $$\mathcal{P}(L)$$ | Probability of lysogeny | [0.1,0.7] |  |
-| $$m$$ | Decay rate | $$0.012 h^{-1}$$| Da Paepe et al, 2006  | 
 | $$\mu_i$$ | Induction rate |$$???$$| |   | | |
 
 Concentrations for lysogeny [0.01, 0.1]:
@@ -41,7 +40,6 @@ Concentrations for lysogeny [0.01, 0.1]:
 | Parameter | Description | Min | 1st Qu| Median| Mean| 3rd Qu| Max| Source| 
 |------|-------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 | $$d$$ | Phage adsorption rate | $$1.4 \cdot 10^{-9} ml/h $$| $$4.6 \cdot 10^{-8} ml/h $$ | $$1.1 \cdot 10^{-7} ml/h $$ | $$1.4 \cdot 10^{-7} ml/h $$ | $$2.1 \cdot 10^{-7} ml/h $$ | $$3.7 \cdot 10^{-7} ml/h $$ | Luque et. al, 2020 |
-| $$\tau_{ld}$$ | Commitment time | $$11 h $$| $$109 h $$ | $$262 h $$ | $$311 h $$ | $$489 $$ | $$807 h $$ | Luque et. al, 2020 |
 | $$B_0$$ | Initial sensitive concentration | $$3.8 \cdot 10^4 cells/ml$$ | $$4.7 \cdot 10^{5} cells/ml$$ | $$1.5 \cdot 10^{6}  cells/ml $$| $$2.1 \cdot 10^{6}  cells/ml $$| $$3.4 \cdot 10^{6}  cells/ml $$| $$6.7 \cdot 10^{6}  cells/ml $$|  Luque et. al, 2020 |
 | $$P_0$$ | Initial phage concentration | $$1.8 \cdot 10^5 phage/ml$$ | $$4.0 \cdot 10^{6} phage/ml$$ | $$9.1 \cdot 10^{6}  phage/ml $$| $$1.3 \cdot 10^{7}  phage/ml $$| $$1.9 \cdot 10^{7}  phage/ml $$| $$3.9 \cdot 10^{7}  phage/ml $$|  Luque et. al, 2020 |
 | $$L_0$$ | Initial lysogen concentration | $$0.01 \cdot B_0 $$| $$0.0325 \cdot B0$$ | $$0.055 \cdot B0$$ | $$0.055 \cdot B0$$ | $$0.0775 \cdot B0$$ | $$0.1 \cdot B_0 $$ | inferred from Luque et. al, 2020 |
@@ -53,7 +51,6 @@ Concentrations for lysogeny [0.1, ~0.5]:
 | Parameter | Description | Min | 1st Qu| Median| Mean| 3rd Qu| Max| Source| 
 |------|-------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 | $$d$$ | Phage adsorption rate | $$6.2 \cdot 10^{-9} ml/h $$| $$7.8 \cdot 10^{-8} ml/h $$ | $$1.6 \cdot 10^{-7} ml/h $$ | $$1.7 \cdot 10^{-7} ml/h $$ | $$2.5 \cdot 10^{-7} ml/h $$ | $$3.7 \cdot 10^{-7} ml/h $$ | Luque et. al, 2020 |
-| $$\tau_{ld}$$ | Commitment time | $$13 h $$| $$183 h $$ | $$352 h $$ | $$376 h $$ | $$558 $$ | $$807 h $$ | Luque et. al, 2020 |
 | $$B_0$$ | Initial sensitive concentration | $$3.8 \cdot 10^4 cells/ml$$ | $$7.9 \cdot 10^{5} cells/ml$$ | $$2.0 \cdot 10^{6}  cells/ml $$| $$2.5 \cdot 10^{6}  cells/ml $$| $$3.9 \cdot 10^{6}  cells/ml $$| $$6.7 \cdot 10^{6}  cells/ml $$|  Luque et. al, 2020 |
 | $$P_0$$ | Initial phage concentration | $$6.2 \cdot 10^5 phage/ml$$ | $$6.3 \cdot 10^{6} phage/ml$$ | $$1.3 \cdot 10^{7}  phage/ml $$| $$1.6 \cdot 10^{7}  phage/ml $$| $$2.5 \cdot 10^{7}  phage/ml $$| $$3.9 \cdot 10^{7}  phage/ml $$|  Luque et. al, 2020 |
 | $$L_0$$ | Initial lysogen concentration | $$0.1 \cdot B_0 $$| $$~0.2 \cdot B0$$ | $$~0.3 \cdot B0$$ | $$~0.3 \cdot B0$$ | $$~0.4 \cdot B0$$ | $$~0.5 \cdot B_0 $$ | inferred from Luque et. al, 2020 |
