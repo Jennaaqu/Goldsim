@@ -30,7 +30,6 @@ $$
 | ------ | ------------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | r | Maximum Growth Rate |$$7 \cdot 10^{-3} h^{-1}$$| $$2.95 \cdot 10^{-3}, 7 \cdot 10^{-3} h^{-1}$$ | (Silveira et. al, 2021)|  |             
 | H | Hill functions      | $$[0,1]$$ |   | | | 
-| d | Infection rate |$$1.06 \cdot 10^{-8} ml/hr$$| $$1.4 \cdot 10 ^{-9}, 3.7 \cdot 10^{-7} ml/h$$ |Luque and Silveira, 2020  | | |
 | c | Burst size | $$11$$ | |(M.Middelboe et al.,2001) | Myoviridae | Vibrio sp. |
 | m | Decay rate | $$0.528 hr^{-1}$$| |(C.A. Suttle,1994)   |Myoviridae |Vibrio sp. |
 | $$\mathcal{P}(L)$$ | Probability of lysogeny | [0.1,0.7] |  |
