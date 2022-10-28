@@ -32,7 +32,7 @@ $$
 | H | Hill functions      | $$[0,1]$$ |   | | | 
 | c | Burst size | $$11$$ | |(M.Middelboe et al.,2001) | Myoviridae | Vibrio sp. |
 | $$m$$ | Decay rate | $$0.528 hr^{-1}$$| |(C.A. Suttle,1994)   |Myoviridae |Vibrio sp. |
-| $$\mathcal{P}(L)$$ | Probability of lysogeny | [0.1,0.7] |  |
+| $$\mathcal{P}(L)$$ | Probability of lysogeny | [0.01,0.5] |  |
 | $$\mu_i$$ | Induction rate |$$???$$| |   | | |
 
 Concentrations for lysogeny [0.01, 0.1]:
