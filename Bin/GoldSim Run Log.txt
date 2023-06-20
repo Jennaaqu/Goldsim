@@ -1,14 +1,14 @@
 GoldSim 14.0.0344
-Simulation Filename:	Master_Defense_ModelV2.gsm
-Simulation Start Time:	5/1/2023 2:59:05 PM
-Simulation Run Time:	0.7 s
-Model Author Name:	Rohwer Lab
+Simulation Filename:	edarfunctionoftime.gsm
+Simulation Start Time:	6/19/2023 4:24:01 PM
+Simulation Run Time:	0.0 s
+Model Author Name:	Jenna Aquino
 Analysis Description:	(not specified)
 
 *** Simulation Time Settings ***
 Time Basis:  Elapsed Time
 Time Unit: hr
-Duration: 200 hr
+Duration: 200 hrs
 Basic Timestep: 1 hr
 Reporting Periods: none
 Scheduled Updates: 201
@@ -17,7 +17,7 @@ Final Value Capture Times:
   At the end of the simulation
 
 *** Simulation Monte-Carlo Settings ***
-Simulation Type: Probabilistic (run 100 realizations)
+Simulation Type: Probabilistic (run 1 realization)
 Latin Hypercube Sampling: enabled (using random points in strata)
 Sampling Sequences: repeated; beginning seed 1
 
@@ -26,5 +26,5 @@ WARNINGS AND ERRORS:
 Realization 1
 
 0 hr:
-\eDAR_plot: The result element contains one or more invalid or incomplete result items.
+\eDAR Time History: The result element contains one or more invalid or incomplete result items.
 
